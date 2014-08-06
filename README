@@ -1,1 +1,1 @@
-A Stash hook that being enabled forbids all pushes to master except those with [hotfix] prefix.
+A Stash hook that all pushes to master except those with [hotfix] prefix while enabled.
