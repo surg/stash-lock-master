@@ -1,0 +1,12 @@
+<atlassian-plugin name="Lock Master Branch" key="de.kredito.stash.lock.master" plugins-version="2">
+    <plugin-info>
+        <description>Repository hook to lock master branch</description>
+        <vendor name="Kreditech" url="http://kreditech.com"/>
+        <version>1.0</version>
+    </plugin-info>
+
+    <repository-hook key="lockmasterhook" name="Lock Master Branch" class="de.kredito.LockMasterHook">
+        <description>Locks master branch for all commits except starting with [hotfix] prefix.</description>
+    </repository-hook>
+
+</atlassian-plugin>
